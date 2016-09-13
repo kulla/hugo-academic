@@ -20,19 +20,6 @@ DefaultContentLanguage = "en"
 #   content is served under example.com/en/ and not under example.com/
 DefaultContentLanguageInSubdir = false
 
-# Section for language specific configurations.
-#
-# Create a block [Language.XY] for each language you want to have.
-[Languages]
-
-  # Configurations for the English version of the website.
-  [Languages.en]
-    languageCode = "en-us"
-
-  # Configurations for the German version of the website.
-  [Languages.de]
-    languageCode = "de-de"
-
 [params]
   name = "Lena Smith"
   role = "Professor of Artificial Intelligence"
@@ -196,3 +183,16 @@ DefaultContentLanguageInSubdir = false
   name = "Contact"
   url = "#contact"
   weight = 6
+
+# Section for language specific configurations.
+#
+# Create a block [Language.XY] for each language you want to have.
+[Languages]
+
+  # Configurations for the English version of the website.
+  [Languages.en]
+    languageCode = "en-us"
+
+  # Configurations for the German version of the website.
+  [Languages.de]
+    languageCode = "de-de"
