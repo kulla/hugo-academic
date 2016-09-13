@@ -22,7 +22,10 @@ DefaultContentLanguageInSubdir = false
 
 [Languages]
   [Languages.en]
+    languageCode = "en-us"
+
   [Languages.de]
+    languageCode = "de-de"
 
 [params]
   name = "Lena Smith"
