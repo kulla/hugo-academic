@@ -1,7 +1,6 @@
 baseurl = "http://replace-this-with-your-website-url.com/"
 title = "Academic Theme"
 copyright = "&copy; 2016 Your Name"
-languageCode = "en-us"
 theme = "academic"
 
 # Enable comments by entering your Disqus shortname
@@ -10,6 +9,20 @@ disqusShortname = "spf13"
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
 
+# Specify the default language in case you want to use this theme with
+#    multilanguage support.
+DefaultContentLanguage = "en"
+
+# Set this variable to `true` if there shall also be a language prefix for
+#   the default language.
+#
+#   For example: If the default content language is "en" then the English
+#   content is served under example.com/en/ and not under example.com/
+DefaultContentLanguageInSubdir = false
+
+[Languages]
+  [Languages.en]
+  [Languages.de]
 
 [params]
   name = "Lena Smith"
