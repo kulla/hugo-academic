@@ -20,8 +20,8 @@
     <link rel="stylesheet" href="{{ "/css/" | relURL }}{{ . }}">
     {{ end }}
 
-    <link rel="alternate" href="{{ .RSSLink | default .Site.RSSLink  }}" type="application/rss+xml" title="{{ .Site.Title }}">
-    <link rel="feed" href="{{ .RSSLink | default .Site.RSSLink }}" type="application/rss+xml" title="{{ .Site.Title }}">
+    <link rel="alternate" href="{{ .RSSLink | default .Site.RSSLink  }}" type="application/rss+xml" title="{{ i18n "rss_feed_name" . }}">
+    <link rel="feed" href="{{ .RSSLink | default .Site.RSSLink }}" type="application/rss+xml" title="{{ i18n "rss_feed_name" . }}">
 
     <link rel="shortcut icon" href="{{ "/img/favicon.ico" | relURL }}" type="image/x-icon">
     <link rel="canonical" href="{{ .Permalink }}">
