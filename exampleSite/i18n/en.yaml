@@ -1,8 +1,8 @@
 ---
-- id: "name"
+- id: name
   translation: Lena Smith
 
-- id: "role"
+- id: role
   translation: Professor of Artificial Intelligence
 
 - id: menu_home
