@@ -4,3 +4,6 @@
 
 - id: rss_feed_name
   translation: "{{ .Site.Title }}"
+
+- id: toggle_navigation
+  translation: Toggle navigation
