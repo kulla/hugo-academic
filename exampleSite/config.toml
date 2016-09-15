@@ -154,32 +154,32 @@ DefaultContentLanguageInSubdir = false
 #   The weight parameter defines the order that the links will appear in.
 
 [[menu.main]]
-  name = "Home"
+  name = "menu_home"
   url = "#top"
   weight = 1
 
 [[menu.main]]
-  name = "Publications"
+  name = "menu_publications"
   url = "#publications"
   weight = 2
 
 [[menu.main]]
-  name = "Posts"
+  name = "menu_posts"
   url = "#posts"
   weight = 3
 
 [[menu.main]]
-  name = "Projects"
+  name = "menu_projects"
   url = "#projects"
   weight = 4
 
 [[menu.main]]
-  name = "Teaching"
+  name = "menu_teaching"
   url = "#teaching"
   weight = 5
 
 [[menu.main]]
-  name = "Contact"
+  name = "menu_contact"
   url = "#contact"
   weight = 6
 

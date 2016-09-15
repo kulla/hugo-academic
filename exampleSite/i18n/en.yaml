@@ -4,3 +4,21 @@
 
 - id: "role"
   translation: Professor of Artificial Intelligence
+
+- id: menu_home
+  translation: Home
+
+- id: menu_publications
+  translation: Publications
+
+- id: menu_posts
+  translation: Posts
+
+- id: menu_projects
+  translation: Projects
+
+- id: menu_teaching
+  translation: Teaching
+
+- id: menu_contact
+  translation: Contact

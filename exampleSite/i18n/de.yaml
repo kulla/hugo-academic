@@ -4,3 +4,21 @@
 
 - id: toggle_navigation
   translation: Navigation ein-/ausblenden
+
+- id: menu_home
+  translation: Hauptseite
+
+- id: menu_publications
+  translation: Publikationen
+
+- id: menu_posts
+  translation: Artikel
+
+- id: menu_projects
+  translation: Projekte
+
+- id: menu_teaching
+  translation: Lehre
+
+- id: menu_contact
+  translation: Kontakt
