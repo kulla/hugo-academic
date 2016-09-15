@@ -21,7 +21,6 @@ DefaultContentLanguage = "en"
 DefaultContentLanguageInSubdir = false
 
 [params]
-  role = "Professor of Artificial Intelligence"
   organization = "Stanford University"
   avatar = "portrait.jpg"
   email = "test@example.org"
