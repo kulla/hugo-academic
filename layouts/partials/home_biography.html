@@ -7,7 +7,7 @@
             <div class="portrait-title">
                 {{ with i18n "name" }}<h2 itemprop="name">{{ . }}</h2>{{ end }}
                 {{ with i18n "role" }}<h3 itemprop="jobTitle">{{ . }}</h3>{{ end }}
-                {{ with .Site.Params.organization }}<h3 itemprop="worksFor">{{ . }}</h3>{{ end }}
+                {{ with i18n "organization" }}<h3 itemprop="worksFor">{{ . }}</h3>{{ end }}
             </div>
 
             <ul class="social-icon">

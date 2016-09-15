@@ -5,6 +5,9 @@
 - id: role
   translation: Professor of Artificial Intelligence
 
+- id: organization
+  translation: Stanford University
+
 - id: menu_home
   translation: Home
 
