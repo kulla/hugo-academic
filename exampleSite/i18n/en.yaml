@@ -1,3 +1,6 @@
 ---
 - id: "name"
   translation: Lena Smith
+
+- id: "role"
+  translation: Professor of Artificial Intelligence
