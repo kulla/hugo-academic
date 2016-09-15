@@ -1,0 +1,3 @@
+---
+- id: title_head
+  translation: "{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}"
