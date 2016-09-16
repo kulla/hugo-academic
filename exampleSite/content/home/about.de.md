@@ -4,6 +4,35 @@ draft = false
 title = "about"
 section_id = 0
 weight = 0
+
+# Specification of the own interests (German version)
+[interests]
+  title = "Interessen"
+  interests = [
+    "Künstliche Intelligenz",
+    "Computerlinguistik",
+    "Informationsrückgewinnung"
+  ]
+
+# Specification of the courses one have done (German version)
+[education]
+  title = "Ausbildung"
+
+[[education.courses]]
+  course = "Doktorarbeit in Künstlicher Intelligenz"
+  institution = "Stanford University"
+  year = 2012
+
+[[education.courses]]
+  course = "Master in Informatik"
+  institution = "Massachusetts Institute of Technology"
+  year = 2009
+
+[[education.courses]]
+  course = "Bachelor in Informatik"
+  institution = "Massachusetts Institute of Technology"
+  year = 2008
+
 +++
 
 # Lebenslauf
