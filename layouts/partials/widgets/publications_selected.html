@@ -1,8 +1,6 @@
 {{ $ := .root }}
 {{ $page := .page }}
-{{ $pubs_selected_len := .pubs_selected_len }}
 
-{{ if gt $pubs_selected_len 0 }}
 <!-- Selected Publications widget -->
 <div class="col-xs-12 col-md-4 section-heading">
   <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
@@ -23,4 +21,3 @@
   </ul>
   {{ end }}
 </div>
-{{ end }}
