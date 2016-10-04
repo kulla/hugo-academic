@@ -9,7 +9,13 @@
 {{ range $index, $page := where .Data.Pages "Type" "home" }}
   {{ $params := dict "root" $ "page" $page "pubs_selected_len" $pubs_selected_len }}
   {{ $widget := printf "widgets/%s.html" ( or $page.Params.widget "custom" ) }}
-  {{ partial $widget $params }}
+  <section id="{{ $page.File.BaseFileName }}" class="home-section">
+    <div class="container">
+      <div class="row">
+        {{ partial $widget $params }}
+      </div>
+    </div>
+  </section>
 {{ end }}
 
 <!-- Page Footer -->
